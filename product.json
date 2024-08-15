@@ -1,0 +1,803 @@
+[
+    {
+        "p_id": 1,
+        "p_name": "Samsung Galaxy S21",
+        "p_cost": 799,
+        "p_category": "Mobile",
+        "p_description": "Flagship smartphone with Exynos 2100, 8GB RAM, and 128GB storage.",
+        "p_img":"https://images-cdn.ubuy.co.in/64f4ed888dd18f0ae858d95b-pre-owned-samsung-galaxy-s21-plus-5g.jpg"
+      },
+      {
+        "p_id": 2,
+        "p_name": "Apple iPhone 13",
+        "p_cost": 999,
+        "p_category": "Mobile",
+        "p_description": "Latest iPhone with A15 Bionic chip, 4GB RAM, and 128GB storage.",
+        "p_img":"https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_GEO_09142021_inline.jpg.slideshow-xlarge_2x.jpg"
+      },
+      {
+        "p_id": 3,
+        "p_name": "Sony WH-1000XM4",
+        "p_cost": 349,
+        "p_category": "Headphones",
+        "p_description": "Industry-leading noise-canceling over-ear headphones.",
+        "p_img":"https://i.guim.co.uk/img/media/9953bbfe2bf3eb04b124eb579c88174b5333c42c/467_333_4494_2696/master/4494.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ac14a6db8e3205b186b2d2f304fd194b"
+      },
+      {
+        "p_id": 4,
+        "p_name": "Dell XPS 13",
+        "p_cost": 1199,
+        "p_category": "Laptop",
+        "p_description": "Compact and powerful laptop with Intel i7 processor and 16GB RAM.",
+        "p_img":"https://www.dell.com/community/assets/community/687062f5-603c-4f5f-ab9d-31aa7cacb376/DellXPS13Plusdevelopereditionw-cc000003-3aa9-42b7-b3ec-877fa475ffd9-721039270.JPG"
+      },
+      {
+        "p_id": 5,
+        "p_name": "Samsung 55\" QLED TV",
+        "p_cost": 1299,
+        "p_category": "Television",
+        "p_description": "4K QLED Smart TV with Quantum Dot technology.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiwHF-Yfhafw4mgOsR2aGRLxU8RBbR5UHWgQ&s"
+      },
+      {
+        "p_id": 6,
+        "p_name": "Apple MacBook Air",
+        "p_cost": 999,
+        "p_category": "Laptop",
+        "p_description": "Lightweight laptop with M1 chip and 8GB RAM.",
+        "p_img":"https://m.media-amazon.com/images/I/51zYyI3w9DL.jpg"
+      },
+      {
+        "p_id": 7,
+        "p_name": "Nike Air Max 270",
+        "p_cost": 150,
+        "p_category": "Footwear",
+        "p_description": "Comfortable and stylish running shoes with air cushioning.",
+        "p_img":"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/722b6720-e730-4e80-827f-44e06162096b/air-max-270-older-shoes-rZJj89.png"
+      },
+      {
+        "p_id": 8,
+        "p_name": "Sony PlayStation 5",
+        "p_cost": 499,
+        "p_category": "Gaming Console",
+        "p_description": "Next-gen gaming console with ultra-high-speed SSD.",
+        "p_img":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1712137796/Croma%20Assets/Gaming/Gaming%20Consoles/Images/305985_ilpfe3.png"
+      },
+      {
+        "p_id": 9,
+        "p_name": "Apple iPad Pro",
+        "p_cost": 799,
+        "p_category": "Tablet",
+        "p_description": "Powerful tablet with M1 chip and 11-inch Liquid Retina display.",
+        "p_img":"https://www.apple.com/newsroom/images/product/ipad/standard/apple_ipad-pro-spring21_hero_04202021_big.jpg.large.jpg"
+      },
+      {
+        "p_id": 10,
+        "p_name": "Bose QuietComfort 35 II",
+        "p_cost": 299,
+        "p_category": "Headphones",
+        "p_description": "Wireless Bluetooth headphones with noise-canceling feature.",
+        "p_img":"https://m.media-amazon.com/images/I/71Aclgd057L._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 11,
+        "p_name": "Canon EOS R5",
+        "p_cost": 3899,
+        "p_category": "Camera",
+        "p_description": "Professional mirrorless camera with 45MP sensor.",
+        "p_img":"https://in.canon/media/image/2020/07/04/4317bcd14f784a258f3908212608d6da_R5_Top_BODY.png"
+      },
+      {
+        "p_id": 12,
+        "p_name": "Asus ROG Strix",
+        "p_cost": 1499,
+        "p_category": "Laptop",
+        "p_description": "Gaming laptop with AMD Ryzen 9 and RTX 3080.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSewuu7zdVfSlGuywM5K9agPZW3S9eAE7Cug&s"
+      },
+      {
+        "p_id": 13,
+        "p_name": "Fitbit Charge 4",
+        "p_cost": 149,
+        "p_category": "Fitness Tracker",
+        "p_description": "Advanced fitness and health tracker with built-in GPS.",
+        "p_img":"https://m.media-amazon.com/images/I/71smqRr0pmL.jpg"
+      },
+      {
+        "p_id": 14,
+        "p_name": "Google Nest Hub",
+        "p_cost": 99,
+        "p_category": "Smart Home",
+        "p_description": "Smart display with Google Assistant and touch screen.",
+        "p_img":"https://m.media-amazon.com/images/I/61p+HaIkPCL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 15,
+        "p_name": "Samsung Galaxy Tab S7",
+        "p_cost": 649,
+        "p_category": "Tablet",
+        "p_description": "High-performance tablet with S Pen and 120Hz display.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9p-TxdUQg95fGv7bQSGAdLep8rFY2cJbi5g&s"
+      },
+      {
+        "p_id": 16,
+        "p_name": "Lenovo ThinkPad X1",
+        "p_cost": 1799,
+        "p_category": "Laptop",
+        "p_description": "Business laptop with Intel i7 and 16GB RAM.",
+        "p_img":"https://m.media-amazon.com/images/I/41AW34vZZdL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 17,
+        "p_name": "HP Envy 13",
+        "p_cost": 999,
+        "p_category": "Laptop",
+        "p_description": "Sleek and powerful laptop with Intel i5 and 8GB RAM.",
+        "p_img":"https://www.digitaldreamsjaipur.com/wp-content/uploads/2020/05/HP-Envy-13-aq1020TX-Digital-Dreams-Jaipur-5.jpg"
+      },
+      {
+        "p_id": 18,
+        "p_name": "JBL Flip 5",
+        "p_cost": 119,
+        "p_category": "Speaker",
+        "p_description": "Portable waterproof Bluetooth speaker with powerful sound.",
+        "p_img":"https://images-cdn.ubuy.co.in/63400753d7cd22148e1bf6d2-jbl-flip-5-waterproof-portable.jpg"
+      },
+      {
+        "p_id": 19,
+        "p_name": "Logitech MX Master 3",
+        "p_cost": 99,
+        "p_category": "Mouse",
+        "p_description": "Advanced wireless mouse with ergonomic design and custom buttons.",
+        "p_img":"https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 20,
+        "p_name": "Amazon Echo Dot",
+        "p_cost": 49,
+        "p_category": "Smart Home",
+        "p_description": "Smart speaker with Alexa voice assistant.",
+        "p_img":"https://m.media-amazon.com/images/I/51I4zudr6iL._AC_SY580_.jpg"
+      },
+      {
+        "p_id": 21,
+        "p_name": "LG CX OLED TV",
+        "p_cost": 1399,
+        "p_category": "Television",
+        "p_description": "55-inch 4K OLED TV with AI ThinQ and Dolby Vision.",
+        "p_img":"https://rukminim2.flixcart.com/image/850/1000/kg9qbgw0/television/h/f/d/lg-oled65cxpta-original-imafwjxjgj2ztfgq.jpeg?q=90&crop=false"
+      },
+      {
+        "p_id": 22,
+        "p_name": "Roku Streaming Stick+",
+        "p_cost": 49,
+        "p_category": "Streaming Device",
+        "p_description": "4K HDR streaming device with voice remote.",
+        "p_img":"https://images-cdn.ubuy.co.in/63561e5b37d18469e53b7907-roku-4k-hdr-media-streaming-stick-with.jpg"
+      },
+      {
+        "p_id": 23,
+        "p_name": "Dyson V11 Vacuum",
+        "p_cost": 599,
+        "p_category": "Home Appliance",
+        "p_description": "Cordless vacuum cleaner with powerful suction.",
+        "p_img":"https://m.media-amazon.com/images/I/61xW5y39hjL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 24,
+        "p_name": "Samsung Galaxy Watch 3",
+        "p_cost": 399,
+        "p_category": "Smartwatch",
+        "p_description": "Advanced smartwatch with health monitoring features.",
+        "p_img":"https://www.reliancedigital.in/medias/Samsung-SM-R855FZDAINS-Smart-Watch-491900883-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzA1NDJ8aW1hZ2UvanBlZ3xpbWFnZXMvaGFlL2g0My85MzY2NDczNDc0MDc4LmpwZ3xkMmE1ZTlhN2FiM2FmMjM2ZjlhNGI1NjU0ZjE1YmFlMzEwOGZiY2M4Nzg2MDU5MDczYjNlMTE2ZTk0NjNlZmY5"
+      },
+      {
+        "p_id": 25,
+        "p_name": "Nintendo Switch",
+        "p_cost": 299,
+        "p_category": "Gaming Console",
+        "p_description": "Versatile gaming console that can be used at home or on the go.",
+        "p_img":"https://m.media-amazon.com/images/I/71UiJ0O6vTL.jpg"
+      },
+      {
+        "p_id": 26,
+        "p_name": "Apple AirPods Pro",
+        "p_cost": 249,
+        "p_category": "Headphones",
+        "p_description": "Wireless earbuds with active noise cancellation and transparency mode.",
+        "p_img":"https://media.croma.com/image/upload/v1694672652/Croma%20Assets/Entertainment/Wireless%20Earbuds/Images/301165_xzuxl0.png"
+      },
+      {
+        "p_id": 27,
+        "p_name": "Dell UltraSharp Monitor",
+        "p_cost": 599,
+        "p_category": "Monitor",
+        "p_description": "27-inch 4K Ultra HD monitor with InfinityEdge display.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdFnah3JNmrrgjhp2fWRQ2gBwmBXzww8Kisw&s"
+      },
+      {
+        "p_id": 28,
+        "p_name": "GoPro HERO9 Black",
+        "p_cost": 399,
+        "p_category": "Camera",
+        "p_description": "Action camera with 5K video and 20MP photos.",
+        "p_img":"https://gppro.in/wp-content/uploads/2020/11/GoPro-Hero-9_6.jpg"
+      },
+      {
+        "p_id": 29,
+        "p_name": "Microsoft Surface Pro 7",
+        "p_cost": 749,
+        "p_category": "Tablet",
+        "p_description": "2-in-1 tablet with Intel i5 and 8GB RAM.",
+        "p_img":"https://m.media-amazon.com/images/I/61qS1eDVy9S.jpg"
+      },
+      {
+        "p_id": 30,
+        "p_name": "Instant Pot Duo 7-in-1",
+        "p_cost": 89,
+        "p_category": "Kitchen Appliance",
+        "p_description": "Multi-use pressure cooker with 7 cooking functions.",
+        "p_img":"https://images-cdn.ubuy.co.in/6565af390d80e0553a79dfcd-instant-pot-ip-duo60-6-qt-7-in1.jpg"
+      },
+      {
+        "p_id": 31,
+        "p_name": "Bose SoundLink Revolve",
+        "p_cost": 199,
+        "p_category": "Speaker",
+        "p_description": "Portable Bluetooth speaker with 360-degree sound.",
+        "p_img":"https://m.media-amazon.com/images/I/71FXwpTu1kL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 32,
+        "p_name": "Fitbit Versa 3",
+        "p_cost": 229,
+        "p_category": "Fitness Tracker",
+        "p_description": "Health and fitness smartwatch with built-in GPS.",
+        "p_img":"https://www.fitbit.com/global/content/dam/fitbit/global/pdp/devices/versa-3/images/desktop/fall21-features-cover.jpg"
+      },
+      {
+        "p_id": 33,
+        "p_name": "Asus TUF Gaming Laptop",
+        "p_cost": 999,
+        "p_category": "Laptop",
+        "p_description": "Gaming laptop with AMD Ryzen 7 and GTX 1660 Ti.",
+        "p_img":"https://dlcdnwebimgs.asus.com/gain/f93bdd99-47d7-4f97-8800-5a83d0bd46a6/"
+      },
+      {
+        "p_id": 34,
+        "p_name": "Garmin Forerunner 245",
+        "p_cost": 299,
+        "p_category": "Fitness Tracker",
+        "p_description": "GPS running smartwatch with advanced training features.",
+        "p_img":"https://m.media-amazon.com/images/I/51-PWE7CmvL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 35,
+        "p_name": "Apple HomePod Mini",
+        "p_cost": 99,
+        "p_category": "Smart Home",
+        "p_description": "Compact smart speaker with Siri and HomeKit support.",
+        "p_img":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-og-202110?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1632930650000"
+      },
+      {
+        "p_id": 36,
+        "p_name": "Sony Bravia 65-inch 4K TV",
+        "p_cost": 1199,
+        "p_category": "Television",
+        "p_description": "Ultra HD Smart TV with HDR and Android TV.",
+        "p_img":"https://i.gadgets360cdn.com/products/televisions/large/1548155126_832_sony_65-inch-led-ultra-hd-4k-tv-kd-65x9500e.jpg?downsize=*:360"
+      },
+      {
+        "p_id": 37,
+        "p_name": "HP Spectre x360",
+        "p_cost": 1299,
+        "p_category": "Laptop",
+        "p_description": "2-in-1 laptop with Intel i7 and 16GB RAM.",
+        "p_img":"https://m.media-amazon.com/images/I/51CW9Mg54qL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 38,
+        "p_name": "Tile Mate Tracker",
+        "p_cost": 25,
+        "p_category": "Gadget",
+        "p_description": "Bluetooth tracker for finding keys, bags, and other items.",
+        "p_img":"https://m.media-amazon.com/images/I/51U2wGNGDCL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 39,
+        "p_name": "Philips Hue Smart Bulb",
+        "p_cost": 49,
+        "p_category": "Smart Home",
+        "p_description": "Smart LED bulb with customizable colors and brightness.",
+        "p_img":"https://www.assets.signify.com/is/image/PhilipsLighting/8719514291218-929002468901-Hue_WCA-A60-B22-on-TRN"
+      },
+      {
+        "p_id": 40,
+        "p_name": "Acer Predator Helios 300",
+        "p_cost": 1199,
+        "p_category": "Laptop",
+        "p_description": "Gaming laptop with Intel i7 and RTX 3060.",
+        "p_img":"https://images-cdn.ubuy.co.in/633acb219830d9231330cddd-acer-predator-helios-300-gaming-laptop.jpg"
+      },
+      {
+        "p_id": 41,
+        "p_name": "Logitech C920 HD Webcam",
+        "p_cost": 79,
+        "p_category": "Accessory",
+        "p_description": "High-definition webcam with 1080p video recording.",
+        "p_img":"https://m.media-amazon.com/images/I/71iNwni9TsL.jpg"
+      },
+      {
+        "p_id": 42,
+        "p_name": "Sony Alpha a6400",
+        "p_cost": 899,
+        "p_category": "Camera",
+        "p_description": "Mirrorless camera with 24.2MP APS-C sensor.",
+        "p_img":"https://images-cdn.ubuy.co.in/65c6f472f9278b3b9361131b-sony-a6400-ilce-6400m-digital-camera.jpg"
+      },
+      {
+        "p_id": 43,
+        "p_name": "Amazon Kindle Paperwhite",
+        "p_cost": 129,
+        "p_category": "E-Reader",
+        "p_description":"Waterproof e-reader with high-resolution display.",
+        "p_img": "https://m.media-amazon.com/images/G/31/kindle/journeys/nNgy62TSAuW8OTbBaQmF4ntGWPnOiLmMI2F1M2Fskb2BZA3D/YzMyZWFhYTMt._CB623993619_.jpg"
+      },
+      {
+        "p_id": 44,
+        "p_name": "DJI Mavic Air 2",
+        "p_cost": 799,
+        "p_category": "Drone",
+        "p_description": "Compact drone with 4K camera and advanced flight modes.",
+        "p_img":"https://5.imimg.com/data5/SELLER/Default/2020/10/FR/EL/GB/112440801/dji-mavic-air-2.jpg"
+      },
+      {
+        "p_id": 45,
+        "p_name": "Microsoft Xbox Series X",
+        "p_cost": 499,
+        "p_category": "Gaming Console",
+        "p_description": "Next-gen gaming console with 1TB SSD and 4K gaming.",
+        "p_img":"https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png"
+      },
+      {
+        "p_id": 46,
+        "p_name": "Google Pixel 5",
+        "p_cost": 699,
+        "p_category": "Mobile",
+        "p_description": "Smartphone with Snapdragon 765G and 8GB RAM.",
+        "p_img":"https://i.ebayimg.com/images/g/6hQAAOSw5mljyrnJ/s-l1600.jpg"
+      },
+      {
+        "p_id": 47,
+        "p_name": "Canon PIXMA TR150",
+        "p_cost": 199,
+        "p_category": "Printer",
+        "p_description": "Portable wireless printer with AirPrint and Cloud compatibility.",
+        "p_img":"https://in.canon/media/image/2020/02/05/1025b528a9de489b8d5ca8cec63928ba_03_AS_FR_op3-362.png"
+      },
+      {
+        "p_id": 48,
+        "p_name": "Nespresso Vertuo Next",
+        "p_cost": 159,
+        "p_category": "Kitchen Appliance",
+        "p_description": "Coffee and espresso machine with Centrifusion technology.",
+        "p_img":"https://m.media-amazon.com/images/I/613VLOs7plL.jpg"
+      },
+      {
+        "p_id": 49,
+        "p_name": "Anker PowerCore 10000",
+        "p_cost": 29,
+        "p_category": "Accessory",
+        "p_description": "Compact and portable power bank with high-speed charging.",
+        "p_img":"https://images-cdn.ubuy.co.in/634001b05b1d097aa60c0446-anker-portable-charger-10000mah-power.jpg"
+      },
+      {
+        "p_id": 50,
+        "p_name": "Sony WH-CH710N",
+        "p_cost": 199,
+        "p_category": "Headphones",
+        "p_description": "Wireless noise-canceling headphones with long battery life.",
+        "p_img":"https://m.media-amazon.com/images/I/61rEoEQqn0L.jpg"
+      },
+      {
+        "p_id": 51,
+        "p_name": "Razer BlackWidow V3",
+        "p_cost": 139,
+        "p_category": "Keyboard",
+        "p_description": "Mechanical gaming keyboard with RGB lighting.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpoMYG04L65sTp1_z6TY-syxvqE2ZdhI_ogg&s"
+      },
+      {
+        "p_id": 52,
+        "p_name": "Samsung Galaxy Buds Pro",
+        "p_cost": 199,
+        "p_category": "Headphones",
+        "p_description": "True wireless earbuds with active noise cancellation.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzFoE9FzGIfg4XQOAM6Dl_HlY_fSGxwezuA&s"
+      },
+      {
+        "p_id": 53,
+        "p_name": "Google Nest Thermostat",
+        "p_cost": 129,
+        "p_category": "Smart Home",
+        "p_description": "Smart thermostat with remote control and energy-saving features.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwQTfkmdK7oio4ME63_RnHaNdXSv8odLmuhw&s"
+      },
+      {
+        "p_id": 54,
+        "p_name": "Apple Watch SE",
+        "p_cost": 279,
+        "p_category": "Smartwatch",
+        "p_description": "Affordable smartwatch with fitness tracking and heart rate monitoring.",
+        "p_img":"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT8Ibp9hY5xNUhFbIVxEs2J9iLUlwLk51CSMwxEoM90xRMqRI7m_aUmGbeSIIiFrx6MbAlCPG0bpEzMdXIkAOn-CXR7OCu7-xZy8JhxgRgikFDPw1-h3BhE"
+      },
+      {
+        "p_id": 55,
+        "p_name": "LG Gram 17",
+        "p_cost": 1699,
+        "p_category": "Laptop",
+        "p_description": "Ultra-lightweight laptop with 17-inch display and Intel i7 processor.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp7qPZt0X6fkV9VGdxkjItPNBUNSdVms7DWg&s"
+      },
+      {
+        "p_id": 56,
+        "p_name": "Ring Video Doorbell Pro",
+        "p_cost": 249,
+        "p_category": "Smart Home",
+        "p_description": "Video doorbell with HD video and motion detection.",
+        "p_img":"https://images.ctfassets.net/a3peezndovsu/variant-31961428492377/e8d3f08c98ee484eef46c383b85cb785/variant-31961428492377.jpg"
+      },
+      {
+        "p_id": 57,
+        "p_name": "Ecovacs Deebot N79S",
+        "p_cost": 229,
+        "p_category": "Home Appliance",
+        "p_description": "Robotic vacuum cleaner with Alexa compatibility.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1u1Li4b10uv2W5DBqh3sLxBD_rQLz9QMBXA&s"
+      },
+      {
+        "p_id": 58,
+        "p_name": "Corsair K95 RGB Platinum",
+        "p_cost": 199,
+        "p_category": "Keyboard",
+        "p_description": "Mechanical gaming keyboard with RGB backlighting and macro keys.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt0Q_3aFf45NboM1VP2Xa5oWY8_hTg9SHbVQ&s"
+      },
+      {
+        "p_id": 59,
+        "p_name": "Samsung Galaxy Note 20",
+        "p_cost": 999,
+        "p_category": "Mobile",
+        "p_description": "High-end smartphone with S Pen and 108MP camera.",
+        "p_img":"https://m.media-amazon.com/images/I/91IBNGEAhyL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 60,
+        "p_name": "Beats Solo Pro",
+        "p_cost": 299,
+        "p_category": "Headphones",
+        "p_description": "On-ear noise-canceling headphones with Apple H1 chip.",
+        "p_img":"https://m.media-amazon.com/images/I/61BOKa62IqL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 61,
+        "p_name": "Amazfit Bip U Pro",
+        "p_cost": 69,
+        "p_category": "Smartwatch",
+        "p_description": "Affordable smartwatch with built-in GPS and SpO2 monitor.",
+        "p_img":"https://m.media-amazon.com/images/I/61brDD8JILL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 62,
+        "p_name": "HyperX Cloud II",
+        "p_cost": 99,
+        "p_category": "Headphones",
+        "p_description": "Gaming headset with 7.1 virtual surround sound.",
+        "p_img":"https://m.media-amazon.com/images/I/71u77S3CdSL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 63,
+        "p_name": "Sony WF-1000XM4",
+        "p_cost": 279,
+        "p_category": "Headphones",
+        "p_description": "True wireless earbuds with industry-leading noise cancellation.",
+        "p_img":"https://m.media-amazon.com/images/I/61G9yF+ZbEL.jpg"
+      },
+      {
+        "p_id": 64,
+        "p_name": "Garmin Venu Sq",
+        "p_cost": 199,
+        "p_category": "Smartwatch",
+        "p_description": "GPS smartwatch with all-day health monitoring and fitness features.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMhjh-L8NdcQEPLs-lurWbi4LLvC0FQA45BQ&s"
+      },
+      {
+        "p_id": 65,
+        "p_name": "Logitech G502 Hero",
+        "p_cost": 49,
+        "p_category": "Mouse",
+        "p_description": "High-performance gaming mouse with customizable weights.",
+        "p_img":"https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 66,
+        "p_name": "Dell G5 Gaming Desktop",
+        "p_cost": 1199,
+        "p_category": "Desktop",
+        "p_description": "Powerful gaming desktop with Intel i7 and GTX 1660 Ti.",
+        "p_img":"https://m.media-amazon.com/images/I/81Dhq2it8gL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 67,
+        "p_name": "Apple TV 4K",
+        "p_cost": 179,
+        "p_category": "Streaming Device",
+        "p_description": "4K HDR streaming device with Dolby Atmos support.",
+        "p_img":"https://m.media-amazon.com/images/I/616bgkA2J0L._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "p_id": 68,
+        "p_name": "Nikon D3500",
+        "p_cost": 499,
+        "p_category": "Camera",
+        "p_description": "Entry-level DSLR camera with 24.2MP sensor and 1080p video recording.",
+        "p_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnvyS9U5mUrdy2e-qZvvWxH1C3o7kgU4CYgQ&s"
+      },
+      {
+        "p_id": 69,
+        "p_name": "Microsoft Surface Go 2",
+        "p_cost": 399,
+        "p_category": "Tablet",
+        "p_description": "Portable 2-in-1 tablet with 10.5-inch display and Intel Pentium processor.",
+        "p_img":"https://m.media-amazon.com/images/I/71RQMHbQTHL.jpg"
+      },
+      {
+        "p_id": 70,
+        "p_name": "Roku Ultra",
+        "p_cost": 99,
+        "p_category": "Streaming Device",
+        "p_description": "4K/HDR/HD streaming player with enhanced voice remote and JBL headphones.",
+        "p_img":"https://m.media-amazon.com/images/I/61TnL4uxZuL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+          "p_id": 71,
+          "p_name": "Samsung Galaxy S21",
+          "p_cost": 799,
+          "p_category": "Mobile",
+          "p_description": "Flagship smartphone with Exynos 2100, 8GB RAM, and 128GB storage.",
+          "p_img": "https://images-cdn.ubuy.co.in/64f4ed888dd18f0ae858d95b-pre-owned-samsung-galaxy-s21-plus-5g.jpg"
+        },
+        {
+          "p_id": 72,
+          "p_name": "Apple iPhone 13",
+          "p_cost": 999,
+          "p_category": "Mobile",
+          "p_description": "Latest iPhone with A15 Bionic chip, 4GB RAM, and 128GB storage.",
+          "p_img": "https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_GEO_09142021_inline.jpg.slideshow-xlarge_2x.jpg"
+        },
+        {
+          "p_id": 73,
+          "p_name": "Sony WH-1000XM4",
+          "p_cost": 349,
+          "p_category": "Headphones",
+          "p_description": "Industry-leading noise-canceling over-ear headphones.",
+          "p_img": "https://i.guim.co.uk/img/media/9953bbfe2bf3eb04b124eb579c88174b5333c42c/467_333_4494_2696/master/4494.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ac14a6db8e3205b186b2d2f304fd194b"
+        },
+        {
+          "p_id": 74,
+          "p_name": "Dell XPS 13",
+          "p_cost": 1199,
+          "p_category": "Laptop",
+          "p_description": "Compact and powerful laptop with Intel i7 processor and 16GB RAM.",
+          "p_img": "https://www.dell.com/community/assets/community/687062f5-603c-4f5f-ab9d-31aa7cacb376/DellXPS13Plusdevelopereditionw-cc000003-3aa9-42b7-b3ec-877fa475ffd9-721039270.JPG"
+        },
+        {
+          "p_id": 75,
+          "p_name": "Samsung 55\" QLED TV",
+          "p_cost": 1299,
+          "p_category": "Television",
+          "p_description": "4K QLED Smart TV with Quantum Dot technology.",
+          "p_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyPma5Tq7AIvAHV3ZdPF779iJleDmvz5BxA&s"
+        },
+        {
+          "p_id": 76,
+          "p_name": "Apple MacBook Air",
+          "p_cost": 999,
+          "p_category": "Laptop",
+          "p_description": "Lightweight laptop with M1 chip and 8GB RAM.",
+          "p_img": "https://m.media-amazon.com/images/I/51zYyI3w9DL.jpg"
+        },
+        {
+          "p_id": 77,
+          "p_name": "Nike Air Max 270",
+          "p_cost": 150,
+          "p_category": "Footwear",
+          "p_description": "Comfortable and stylish running shoes with air cushioning.",
+          "p_img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/722b6720-e730-4e80-827f-44e06162096b/air-max-270-older-shoes-rZJj89.png"
+        },
+        {
+          "p_id": 78,
+          "p_name": "Sony PlayStation 5",
+          "p_cost": 499,
+          "p_category": "Gaming Console",
+          "p_description": "Next-gen gaming console with ultra-high-speed SSD.",
+          "p_img": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1712137796/Croma%20Assets/Gaming/Gaming%20Consoles/Images/305985_ilpfe3.png"
+        },
+        {
+          "p_id": 79,
+          "p_name": "Apple iPad Pro",
+          "p_cost": 799,
+          "p_category": "Tablet",
+          "p_description": "Powerful tablet with M1 chip and 11-inch Liquid Retina display.",
+          "p_img": "https://www.apple.com/newsroom/images/product/ipad/standard/apple_ipad-pro-spring21_hero_04202021_big.jpg.large.jpg"
+        },
+        {
+          "p_id": 80,
+          "p_name": "Bose QuietComfort 35 II",
+          "p_cost": 299,
+          "p_category": "Headphones",
+          "p_description": "Wireless Bluetooth headphones with noise-canceling feature.",
+          "p_img": "https://m.media-amazon.com/images/I/71Aclgd057L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 81,
+          "p_name": "Canon EOS R5",
+          "p_cost": 3899,
+          "p_category": "Camera",
+          "p_description": "Professional mirrorless camera with 45MP sensor.",
+          "p_img": "https://in.canon/media/image/2020/07/04/4317bcd14f784a258f3908212608d6da_R5_Top_BODY.png"
+        },
+        {
+          "p_id": 82,
+          "p_name": "Asus ROG Strix",
+          "p_cost": 1499,
+          "p_category": "Laptop",
+          "p_description": "Gaming laptop with AMD Ryzen 9 and RTX 3080.",
+          "p_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSewuu7zdVfSlGuywM5K9agPZW3S9eAE7Cug&s"
+        },
+        {
+          "p_id": 83,
+          "p_name": "Fitbit Charge 4",
+          "p_cost": 149,
+          "p_category": "Fitness Tracker",
+          "p_description": "Advanced fitness and health tracker with built-in GPS.",
+          "p_img": "https://m.media-amazon.com/images/I/71smqRr0pmL.jpg"
+        },
+        {
+          "p_id": 84,
+          "p_name": "Google Nest Hub",
+          "p_cost": 99,
+          "p_category": "Smart Home",
+          "p_description": "Smart display with Google Assistant and touch screen.",
+          "p_img": "https://m.media-amazon.com/images/I/61p+HaIkPCL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 85,
+          "p_name": "Samsung Galaxy Tab S7",
+          "p_cost": 649,
+          "p_category": "Tablet",
+          "p_description": "High-performance tablet with S Pen and 120Hz display.",
+          "p_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9p-TxdUQg95fGv7bQSGAdLep8rFY2cJbi5g&s"
+        },
+        {
+          "p_id": 86,
+          "p_name": "Lenovo ThinkPad X1",
+          "p_cost": 1799,
+          "p_category": "Laptop",
+          "p_description": "Business laptop with Intel i7 and 16GB RAM.",
+          "p_img": "https://m.media-amazon.com/images/I/41AW34vZZdL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 87,
+          "p_name": "HP Envy 13",
+          "p_cost": 999,
+          "p_category": "Laptop",
+          "p_description": "Sleek and powerful laptop with Intel i5 and 8GB RAM.",
+          "p_img": "https://www.digitaldreamsjaipur.com/wp-content/uploads/2020/05/HP-Envy-13-aq1020TX-Digital-Dreams-Jaipur-5.jpg"
+        },
+        {
+          "p_id": 88,
+          "p_name": "JBL Flip 5",
+          "p_cost": 119,
+          "p_category": "Speaker",
+          "p_description": "Portable waterproof Bluetooth speaker with powerful sound.",
+          "p_img": "https://images-cdn.ubuy.co.in/63400753d7cd22148e1bf6d2-jbl-flip-5-waterproof-portable.jpg"
+        },
+        {
+          "p_id": 89,
+          "p_name": "Logitech MX Master 3",
+          "p_cost": 99,
+          "p_category": "Mouse",
+          "p_description": "Advanced wireless mouse with ergonomic design and custom buttons.",
+          "p_img": "https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 90,
+          "p_name": "Sony A7 III",
+          "p_cost": 1999,
+          "p_category": "Camera",
+          "p_description": "Versatile mirrorless camera with 24MP sensor and 4K video.",
+          "p_img": "https://m.media-amazon.com/images/I/81Je7C-11fL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 91,
+          "p_name": "Razer Blade 15",
+          "p_cost": 2599,
+          "p_category": "Laptop",
+          "p_description": "High-performance gaming laptop with Intel i7 and RTX 3070.",
+          "p_img": "https://m.media-amazon.com/images/I/71pN43ppp9L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 92,
+          "p_name": "Garmin Fenix 6",
+          "p_cost": 599,
+          "p_category": "Fitness Tracker",
+          "p_description": "Advanced multisport GPS watch with heart rate monitor.",
+          "p_img": "https://m.media-amazon.com/images/I/71fw6RkLaDL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 93,
+          "p_name": "DJI Mavic Air 2",
+          "p_cost": 799,
+          "p_category": "Drone",
+          "p_description": "Compact and powerful drone with 48MP camera and 4K video.",
+          "p_img": "https://m.media-amazon.com/images/I/61DPq3A+HbL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 94,
+          "p_name": "Microsoft Surface Pro 7",
+          "p_cost": 899,
+          "p_category": "Tablet",
+          "p_description": "Versatile 2-in-1 laptop with Intel i5 and 8GB RAM.",
+          "p_img": "https://m.media-amazon.com/images/I/71fqqtsfwPL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 95,
+          "p_name": "Samsung Galaxy Watch 4",
+          "p_cost": 249,
+          "p_category": "Smartwatch",
+          "p_description": "Advanced health tracking and fitness features with Wear OS.",
+          "p_img": "https://m.media-amazon.com/images/I/71f5ISiV7AL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 96,
+          "p_name": "Amazon Echo Dot (4th Gen)",
+          "p_cost": 49,
+          "p_category": "Smart Home",
+          "p_description": "Compact smart speaker with Alexa.",
+          "p_img": "https://m.media-amazon.com/images/I/71xX+U+P6NL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 97,
+          "p_name": "GoPro HERO9 Black",
+          "p_cost": 399,
+          "p_category": "Camera",
+          "p_description": "Waterproof action camera with 5K video and 20MP photos.",
+          "p_img": "https://m.media-amazon.com/images/I/51IkXMcfloL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 98,
+          "p_name": "Nintendo Switch",
+          "p_cost": 299,
+          "p_category": "Gaming Console",
+          "p_description": "Versatile gaming console with detachable Joy-Con controllers.",
+          "p_img": "https://m.media-amazon.com/images/I/71p5EsbN4lL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 99,
+          "p_name": "Sony Bravia 65\" OLED TV",
+          "p_cost": 1999,
+          "p_category": "Television",
+          "p_description": "4K OLED Smart TV with HDR and Google Assistant.",
+          "p_img": "https://m.media-amazon.com/images/I/91vPHoP7z8L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "p_id": 100,
+          "p_name": "Anker PowerCore 26800",
+          "p_cost": 65,
+          "p_category": "Power Bank",
+          "p_description": "High-capacity portable charger with fast charging.",
+          "p_img": "https://m.media-amazon.com/images/I/71q3JkoNJ6L._AC_UF1000,1000_QL80_.jpg"
+        }
+    ]
+    
